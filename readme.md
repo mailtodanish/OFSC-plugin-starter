@@ -1,5 +1,5 @@
 
-# OFSC plugin-boilerplate [Type Script]
+# OFSC plugin [Type Script]
 
 Oracle's codes are somewhat complex, but I have tried to make them easier to use, build and upload.
 
