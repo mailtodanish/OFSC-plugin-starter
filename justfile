@@ -26,7 +26,7 @@ push:
 		git add .
 		git commit -m "updated"
 		git push -u origin main
-		git config --global user.email """
+		git config --global user.email ""
 
 upload: dist-clean dev-zip
 	tsc src/pkgMgr.ts --outDir build --module commonjs
