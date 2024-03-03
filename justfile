@@ -22,9 +22,11 @@ dev-zip: dev-pack
 	@cp dist/plugin.zip build/
 
 push:   
+		git config --global user.email "mailtodanish@gmail.com"
 		git add .
 		git commit -m "updated"
 		git push -u origin main
+		git config --global user.email """
 
 upload: dist-clean dev-zip
 	tsc src/pkgMgr.ts --outDir build --module commonjs
